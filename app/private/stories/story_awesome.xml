@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<story>
+    <name>story_awesome</name>
+    <resume>This story is about yolo</resume>
+    <step>
+        <id>0</id>
+        <title>Tout premier chapitre</title>
+        <type>multipleChoice</type>
+        <text>Moult choses vont se passer, êtes vous prêts?</text>
+        <choices>
+            <choice>
+                <text>choice 1</text>
+                <nextStep>1</nextStep>
+            </choice>
+        </choices>
+    </step>
+    <step>
+        <id>1</id>
+        <title>Le retour du keval</title>
+        <type>multipleChoice</type>
+        <text>Vous avez un keval devant vous</text>
+        <choices>
+            <choice>
+                <text>L'insulter</text>
+                <nextStep>2</nextStep>
+            </choice>
+            <choice>
+                <text>Le manger</text>
+                <nextStep>4</nextStep>
+            </choice>
+        </choices>
+    </step>
+    <step>
+        <id>2</id>
+        <title>Welcome</title>
+        <type>multipleChoice</type>
+        <text>First step</text>
+        <choices>
+            <choice>
+                <text>choice 1</text>
+                <nextStep>3</nextStep>
+            </choice>
+        </choices>
+    </step>
+    <step>
+        <id>3</id>
+        <title>Welcome</title>
+        <type>multipleChoice</type>
+        <text>First step</text>
+        <choices>
+            <choice>
+                <text>choice 1</text>
+                <nextStep>4</nextStep>
+            </choice>
+        </choices>
+    </step>
+    <step>
+        <id>4</id>
+        <title>Welcome</title>
+        <type>multipleChoice</type>
+        <text>First step</text>
+        <choices>
+            <choice>
+                <text>choice 1</text>
+                <nextStep>5</nextStep>
+            </choice>
+            <choice>
+                <text>choice 2</text>
+                <nextStep>6</nextStep>
+            </choice>
+        </choices>
+    </step>
+    <step>
+        <id>5</id>
+        <title>Welcome</title>
+        <type>multipleChoice</type>
+        <text>First step</text>
+        <choices>
+            <choice>
+                <text>choice 1</text>
+                <nextStep>7</nextStep>
+            </choice>
+        </choices>
+    </step>
+
+    <step>
+        <id>6</id>
+        <title>Welcome</title>
+        <type>multipleChoice</type>
+        <text>First step</text>
+        <choices>
+            <choice>
+                <text>choice 1</text>
+                <nextStep>7</nextStep>
+            </choice>
+        </choices>
+    </step>
+
+    <step>
+        <id>7</id>
+        <title>The End</title>
+        <text>You won</text>
+        <type>end</type>
+        <win>true</win>
+    </step>
+
+</story>

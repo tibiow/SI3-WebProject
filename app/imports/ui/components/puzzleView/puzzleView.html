@@ -1,0 +1,17 @@
+<p>
+    To complete this challenge, you have to move the blocks with the arrows of your keyboard until they are in order.
+</p>
+<div class="">
+    <md-button class="md-raised" ng-click="puzzleView.loadPuzzle()" ng-hide="puzzleView.loaded">Unveil the challenge!</md-button>
+</div>
+<div ng-show="puzzleView.loaded" class="puzzleHolder">
+    <div id="game"></div>
+</div>
+<div ng-show="puzzleView.loaded">
+    <md-button class="md-raised" ng-click="puzzleView.puzzle.randomize()">Shuffle</md-button>
+    <md-button class="md-raised" ng-click="puzzleView.puzzle.reorder()">Reorder (for the demo)</md-button>
+    <md-button class="md-raised" ng-click="puzzleView.checkWin()">Validate</md-button>
+    <!-- </div>
+<div id="win" ng-show="puzzleView.hasWon()">
+  <md-button class="md-raised" ng-click="puzzleView.puzzle.checkWin()">Next</md-button>
+</div> -->

@@ -1,0 +1,37 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: url("forest.jpeg") no-repeat center center fixed !important;
+    background-size: cover;
+}/* to fix the next div's size */
+
+.viewHolder {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  margin-top: 5vh;
+  justify-content: center;
+
+  main-view {
+    width: 75%;
+    // overflow-y: scroll;
+  }
+}
+
+.btn-success {
+    padding: 50px 50px;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+
+
+
+
+@import "../imports/ui/components/graphView/graphView.less";
+@import "../imports/ui/components/mainView/mainView.less";
+@import "../imports/ui/components/storyView/storyView.less";
+@import "../imports/ui/components/storyList/storyList.less";
+

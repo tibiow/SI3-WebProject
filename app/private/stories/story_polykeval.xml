@@ -1,0 +1,397 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<story>
+
+    <!-- <step>
+      <id></id>
+      <title></title>
+      <type>multipleChoice</type>
+      <text>
+
+       </text>
+      <choices>
+          <choice>
+              <text></text>
+              <nextStep></nextStep>
+          </choice>
+          <choice>
+              <text></text>
+              <nextStep></nextStep>
+          </choice>
+      </choices>
+  </step> -->
+
+    <name>L'histoire d'un diplôme</name>
+    <resume>C'est l'histoire du yolo</resume>
+    <step>
+        <id>0</id>
+        <title>La destinée du Keval</title>
+        <type>multipleChoice</type>
+        <text>Vous vous promenez dans la magnifique fôret des Bouillides, dans le but de vous reposer après une dure journée de beuverie. Au détour d'un chemin de terre, après avoir tourné à l'angle d'un bunker EDF, vous appercevez une intrigante mais
+            élégante silhouette. Un fier Keval se dresse devant vous. Un choix cornélien s'offre alors à vous.
+        </text>
+        <choices>
+            <choice>
+                <text>Vous insultez l'animal</text>
+                <nextStep>2</nextStep>
+            </choice>
+            <choice>
+                <text>Vous décidez de le manger</text>
+                <nextStep>1</nextStep>
+            </choice>
+        </choices>
+    </step>
+
+    <step>
+        <id>2</id>
+        <title>Le vrai pouvoir du Keval</title>
+        <type>multipleChoice</type>
+        <text>
+            Le fier étalon, d'une voix suave et érotico-sécurisante, énonça sa volonté. "Ô MORTEL INPÉDANT, TOI QUI OSE T'AVANCER DEVANT MOI ET BAFOUER LA MÉMOIRE DE MA MAMAN CHÉRIE, POUR RÉCOMPENSER TA BRAVOURE ET TON INCONSCIENCE, MAIS SURTOUT TA MURGE D'HIER
+            SOIR, LAISSE MOI EXAUCER TON VOEU LE PLUS CHER! (et le plus stylé)" Vous réfléchissez un court instant (35 heures) et énoncez votre volonté en retenant un rot des plus douteux:
+        </text>
+        <choices>
+            <choice>
+                <text>Vous demandez à conquérir le monde</text>
+                <nextStep>4</nextStep>
+            </choice>
+            <choice>
+                <text>Vous exigez une magnifique Mustang à forte consommation de carburant</text>
+                <nextStep>5</nextStep>
+            </choice>
+            <choice>
+                <text>Vous souhaitez déguster le Keval</text>
+                <nextStep>1</nextStep>
+            </choice>
+        </choices>
+    </step>
+
+    <step>
+        <id>5</id>
+        <title>Le confort de la Mustang</title>
+        <type>multipleChoice</type>
+        <text>
+            Le Keval fronça du sourcil droit puis, s'exclafant, laissa place dans un nuage de fumée et paillettes à l'odeur de lasagnes, à une magnifique Mustang rose fluorescente. Vous devenez vite la personne la plus remarquée de Garbejaïre, de part la couleur
+            originale du véhicule et de son klaxon fantaisie, jouant les plus grands hits de Laurie. Gloire, fortune et biatchs s'offrent à vous. Mais vous vous rendez vite compte que l'argent ne fait pas le bonheur. Deux choix s'offrent maintenant à vous :
+        </text>
+        <choices>
+            <choice>
+                <text>Boire</text>
+                <nextStep>6</nextStep>
+            </choice>
+            <choice>
+                <text>Conduire tel Ryan Gosling dans Drive</text>
+                <nextStep>7</nextStep>
+            </choice>
+        </choices>
+    </step>
+
+    <step>
+        <id>7</id>
+        <title>iDrive</title>
+        <type>multipleChoice</type>
+        <text>
+            Vous sillonez donc les routes de France, sans craindre les sangliers qui déboulent de nuit sur les nationales, effrayés par votre meilleur ami le klaxon fantaisie. Alors que vous roulez à grande vitesse avec les pleins phares et les phares
+            anti-brouillard arrière, vous appercevez du coin de l'oeil un panneau terrifiant: "Hautes-Alpes". Ça y est, vous avez atteint le grand Nord. Pendant que vous enfilez votre polaire sur le bord de la route, en grellotant tel un nourisson atteint de
+            Parkinson, un flash apparait dans la nuit. Un éclair rouge barre alors la route: Flash McQueen. Le seul, l'unique, le magnifique. Vous engagez alors la conversation avec ce singulier personnage.
+        </text>
+        <choices>
+            <choice>
+                <text>Vous mentez en disant que son film était fantastique</text>
+                <nextStep>10</nextStep>
+            </choice>
+            <choice>
+                <text>Vous lui dites tout le mal que vous pensez de son film, pur produit mercantil</text>
+                <nextStep>9</nextStep>
+            </choice>
+        </choices>
+    </step>
+
+    <step>
+        <id>9</id>
+        <title>Brûle en enfer</title>
+        <type>end</type>
+        <win>false</win>
+        <text>
+            Vous voyez la colère et la deception dans les yeux de Flash McQueen. D'une colère rouge, il s'enporte et vous renverse. Il accélère. Vous vous croyez sorti d'affaire, mais le voilà, qui driftant, fait demi-tour. Vous ne voyez plus que son phare
+            foncer vers vous. Il pile à votre niveau et entame un burn bien senti sa mère sur votre corps. Vous ne mourrez pas d'hémorragie, mais par intoxication aux vapeurs de plastique. THE END.
+        </text>
+    </step>
+
+    <step>
+        <id>10</id>
+        <title>La mécanophilie</title>
+        <type>multipleChoice</type>
+        <text>
+            Votre compliment fait mouche. Il n'en fallait pas plus à ce coureur de jupons motorisés pour qu'il découvre en vous un partenaire d'une nuit. L'autoroute sera alors votre terrain de jeu, la bande d'arrêt d'urgence votre nid d'amour, la voie de gauche
+            votre plus grand désir, et la voie de décélération votre orgasme. Flashy (vous êtes devenus intimes et le nommez par son surnom) vous regarde du coin de son rétroviseur gauche, droit dans les yeux, et demande à porter vos enfants.
+        </text>
+        <choices>
+            <choice>
+                <text>Horrifié à l'idée de vous engager, vous refusez.</text>
+                <nextStep>9</nextStep>
+            </choice>
+            <choice>
+                <text>Vos yeux s'illuminent et vous acquiesez sans la moindre hésitation.
+                </text>
+                <nextStep>11</nextStep>
+            </choice>
+        </choices>
+    </step>
+
+    <step>
+        <id>11</id>
+        <title>La descente sans frein moteur</title>
+        <type>multipleChoice</type>
+        <text>
+            La vie dont vous réviez avec votre partenaire idéalisé s'effondre à toute vitesse, jours après jours. À la suite d'une grossesse compliquée par une fuite de carburateur, vous êtes parents d'un enfant hybride: une Prius. Dans ces moments difficiles,
+            vous vous surprenez à regretter la présence de votre compagnon Flashy, qui a fuit face aux responsabilités. Vous vous battez tant bien que mal pendant des mois, pour votre fils. Mais il meurt à la suite d'une intervention d'un garagiste Renault
+            manquant de doigté: il n'a pas pu remplacer batterie Lithium-Ion à temps. Votre fils, dans son dernier souffle, vous glisse une phrase à l'oreille : "tuuuuuuuuuut".
+        </text>
+        <choices>
+            <choice>
+                <text>L'alcool vous acceuille</text>
+                <nextStep>6</nextStep>
+            </choice>
+        </choices>
+    </step>
+
+    <step>
+        <id>6</id>
+        <title>L'alcool est une solution aqueuse</title>
+        <type>multipleChoice</type>
+        <text>
+            Depuis des mois maintenant, vous êtes un client privilégié du PMU du coin. Un homme vous accoste au bar. En raison de votre niveau d'alcoolémie lié à la consommation massive de produits dérivés du houblon, vous mettez un moment à remarquer. Il parle
+            dans le vide. Il vous propose une excursion dégustative de liqueurs et boissons rares. Une fois au chateau Bouclier-Rouge, vous vous retrouvez devant la carte du menu, mais trois breuvages attirent votre attention et vous avez du mal à les
+            départager:
+        </text>
+        <choices>
+            <choice>
+                <text>Jägermeister</text>
+                <nextStep>4</nextStep>
+            </choice>
+            <choice>
+                <text>La petite Jaja</text>
+                <nextStep>12</nextStep>
+            </choice>
+            <choice>
+                <text>Vodka On/Off</text>
+                <nextStep>8</nextStep>
+            </choice>
+        </choices>
+    </step>
+
+    <step>
+        <id>8</id>
+        <title>THIS IS RUSSIA BITCH</title>
+        <text>
+            Vous goûtez à ce breuvage et, bien que sans grand goût, vous l'adorez. Après un mois de consommation intensive, vous décidez qu'il est temps de franchir le pas et de boire la vodka à la source. Vous revendez votre foie à un criminel aveugle, tout
+            juste assez cher pour pouvoir vous payer un aller simple vers la Sibérie, mère des breuvages à la patate. Après un court temps d'acclimatation à cette douce région, vous savourez votre nouvelle vie à pleine gorgée. Vous vous êtes trouvé un squat dans
+            un igloo, que vous partagez avec un écureuil, une mamie locale et un ours de Sibérie de six mètres de haut et en hibernation depuis 13 mois. Il vous arrive de temps en temps de repenser à l'étrange Keval et au délicieux cadeau qu'il vous a fait. Vous
+            essayer d'y trouver un sens mais vous êtes bien trop ivre pour cela. Vous vomissez dans votre bouche, un sourire aux lèvres. THE END.
+        </text>
+        <type>end</type>
+        <win>true</win>
+    </step>
+
+    <step>
+        <id>12</id>
+        <title>Elle est si belle</title>
+        <type>multipleChoice</type>
+        <text>
+            Alors que vous portez ce qui a l'air d'une suculente mixture à vos lèvres, vos réjouissant à l'avance de l'apparante fraîcheur du liquide, un homme déboule à toute murgesse à travers des portes saloon du chateau. Surpris, vous vous empressez de faire
+            cul sec au cas où ce serait un membre de la terrible ATVB (Association Taïwanaise du Vol de Boissons), mais vous appercevez vite sa barbe emmelée et son T-Shirt déchiré. Un éclair de lucidité vous frappe plus fort qu'un club de golf lancé par la
+            femme de Tiger Woods sur la maîtresse de ce dernier, en effet, les asiatiques sont imberbes. En dévisageant le nouvel arrivé pendant 37 secondes et 6 millièmes de seconde, tout en dégustant une délicieuse seconde jaja, vous vous rappelez des
+            magnifiques affiches du Learning Centre du campus SophiaTech, vous reconnaissez le Brossard national. Vous êtes sur le point d'entamer la conversation, mais voilà que le bougre glisse sur une SVNI (Substance Visqueuse Non-Identifiées) et se fend le
+            crâne sur un couteau en plastique traînant sur le sol de manière nonchalante. Le regard hébêté, vous décidez de la marche à suivre dans une telle situation:
+        </text>
+        <choices>
+            <choice>
+                <text>Vous mettez Brossard en PLS</text>
+                <nextStep>14</nextStep>
+            </choice>
+            <choice>
+                <text>Vous chantez "la petite Jaja" sur un air funéraire</text>
+                <nextStep>13</nextStep>
+            </choice>
+        </choices>
+    </step>
+
+    <step>
+        <id>13</id>
+        <title>Polytech en moins d'une vie</title>
+        <type>end</type>
+        <text>
+            Cela vous semble improbable, mais vous y voilà. Vos actes de bravoure ont été récompensés à l'échelle de l'attente de vos parents. Devant vous, des visages familiers; Igor, Sébastien, Colette, Anne-Mary et bien plus encore. Ils sont tous là, et ont
+            l'air bien plus surpris que vous de vous y voir. Votre discours ne fait aucun sens l'alcool n'aidant pas, mais que diable, vous y êtes. Vous êtes diplômé Polytech Nice-Sophia Antipolis, et avez 10 Polypoints. Malgré les contre-indications du maître
+            de cérémonie, vous vous saisissez de votre magnifique chapeau carré et le jetez en l'air ou dans la foule, vous ne savez pas trop vu que vous êtes toujours aussi bourré qu'une veille de partiel. La sécurité, les pompiers, qu'importe, vous êtes
+            diplômé. THE END.
+        </text>
+        <win>true</win>
+    </step>
+
+    <step>
+        <id>14</id>
+        <title>Le week-end d'une vie</title>
+        <type>end</type>
+        <text>
+            Les yeux murgés, Brossard vous regarde. Il n'en revient pas, la PLS a servi à autre chose que rater des cours. Le souffle court, il vous invite aux trente cinq prochains WEC (Week-End de Cohésion), qui auront tous lieux durant les quatre prochaines
+            semaines. Vous trépignez d'impatience et partez les bras dessus bras dessous avec votre nouveau camarade de beuverie. Vous ouvrez les yeux, vous êtes déjà dans le turfu; des pâtes caramélisées et un début d'incendie sont devant vous. Vous vous
+            apprêtez à vous enfuire pour boire un coup ailleurs, mais vos camarades vous rappellent aux priorités: ils vous mettent au défi d'y faire flamber un shot. Au bout du cinquième WEC, vous tombez dans un état plus profond que le coma éthilique: la PLS
+            éthilique. Une perfusion de Jäger au bras, vous vous enfoncez vers un monde meilleur, situé six pieds sous terre. THE END.
+        </text>
+        <win>true</win>
+    </step>
+
+    <step>
+        <id>1</id>
+        <title>Dégustation de lasagnes</title>
+        <type>multipleChoice</type>
+        <text>
+            Sous l'impulsion de vos pensées éthanolées, vous saissez le Keval par la crinière et lui arrachez la jugulaire avec votre entrejambes. Vous improvisez alors un méchoui/lasagne des plus délicieux. Un doux fumet de Keval roti embaume les bois. Il vaut
+            maintenant six étoiles sur Trip Advisor, vous propulsant dans la légende de la restauration pas trop rapide. En ingérant ces pièces de Keval magique (il parle, non mais oh), vous vous emparez aussi de ses pouvoirs féériques. Vous voyez plus loin que
+            l'infini fois deux et réalisez votre vrai potentiel.
+        </text>
+        <choices>
+            <choice>
+                <text>Vous tentez d'apporter la paix dans le monde</text>
+                <nextStep>3</nextStep>
+            </choice>
+            <choice>
+                <text>Vous tentez de conquérir le monde avec le Ketank</text>
+                <nextStep>4</nextStep>
+            </choice>
+        </choices>
+    </step>
+
+    <step>
+        <id>3</id>
+        <title>Sale hippie de merde</title>
+        <type>end</type>
+        <text>
+            Sauver le monde commence par sauver la République. Vous rejoignez donc les protestants de la Nuit Debout. Alors que vous plongez dans cet univers étrange, intriguant et bruyant, une malicieux énergumène cammé vous tend un joint de Marie-Juanga. Vous
+            vous emparez du collage de treize feuilles sans vous douter de la puissance psychoactive de la substance. Vous décidez de ne plus jamais bouger la où vous êtes, car il y a un kebab à cinq mètres pour assouvir votre foncedalle, et qu'il y a un
+            buisson. Malheureusement votre immobilité est très mal accueillie par le barrage de CRS, qui vous trouve menaçant. C'est le cinquième tir de flashballs qui aura raison de vous, et de votre vie ruinée par la Marie-Juanga de ces cammés. THE END.
+        </text>
+        <win>false</win>
+    </step>
+
+    <step>
+        <id>4</id>
+        <title>Les prémices d'un conflit</title>
+        <type>multipleChoice</type>
+        <text>
+            Vous découvrez en vous des ambitions inconnues. Vous vous sentez guerrier. Telle Daenerys sur ses dragons, vous sentez le besoin de conquérir des trucs. Vous inventez le Ketank, un astucieux mélange de Keval et de tank. Il possède en plus, une
+            réserve de lasagnes pour l'équipage, qui peut l'utiliser en cas d'extrême urgence pour défendre leur vie, ou casser la croûte. Équipé de cette arme de destruction équine, il faut maintenant prendre des décisions stratégiques:
+        </text>
+        <choices>
+            <choice>
+                <text>Outrepasser la souveraineté territoriale de la Belgique</text>
+                <nextStep>16</nextStep>
+            </choice>
+            <choice>
+                <text>Attaquer la Russie en plein hiver</text>
+                <nextStep>15</nextStep>
+            </choice>
+        </choices>
+    </step>
+
+    <step>
+        <id>15</id>
+        <title>Dans le pas des grands guerriers</title>
+        <type>end</type>
+        <text>
+            Vous êtes stupide. Dans votre folie des grandeurs, vous avez oublié qu'attaquer la Russie en hiver n'est pas une best pratice et ne passe pas à l'échelle. C'est pas très agile. Votre armée est assoiffée, tous les points d'eau étant gelés. Vos hommes
+            apperçoivent une vaste étendue aqueuse liquide newtonien. Vous tentez de prévenir vos hommes, vos sens de super-ivrogne ayant flairé le danger à plusieurs kilomètres. Mais ils ne vous écoutent pas, et s'abreuvent allègrement de vodka. Ivre, votre
+            armée est victime d'un coma éthilique généralisé. THE END.
+        </text>
+        <win>false</win>
+    </step>
+
+    <step>
+        <id>16</id>
+        <title>Frites, cheddar et compagnie</title>
+        <type>multipleChoice</type>
+        <text>
+            La population belge est vite allertée de votre outrecuisance. Elle ne semble pourtant pas beliqueuse. Les habitants s'amassent aux bords des routes en mangeant des frites, afin de voir passer vos colonnes de Ketanks. Après une guerre de plusieurs
+            secondes, la Belgique déclare officiellement "pouni" et vous tend les clés RSA du pays. Vous signez un pacte d'alliance avec Molleenbek et poursuivez votre avancée. Bien que l'opinion mondiale s'en balance les steaks de la Belgique, votre alliance
+            djihadiste fait polémique. Vous déclenchez une nouvelle guerre mondiale par le jeu de alliances, après une erreur de destinataire envoyant une queuto au président Trump. En tant que potentiel leader du monde, de nouvelles décisions vitales s'imposent
+            à vous. Malgré des possibilités infinies, vous réduisez à deux vos possibilités en adoptant une politque du strict nécessaire:
+        </text>
+        <choices>
+            <choice>
+                <text>S'allier avec le Japon</text>
+                <nextStep>17</nextStep>
+            </choice>
+            <choice>
+                <text>Envahir le Japon</text>
+                <nextStep>18</nextStep>
+            </choice>
+        </choices>
+    </step>
+
+    <step>
+        <id>17</id>
+        <title>JAAAAPOOOOOON</title>
+        <type>end</type>
+        <text>
+            Vous n'avez pas lu les plaquettes documentaires fournies le six aout en mémoire d'Hiroshima par les infographistes de Topito. Leur lecture vous aurait informée du fait que ce pays ne possède pas d'armée, mais beaucoup d'ennemis. Un milliard de
+            chinois est contre vous. Dépité, vous rentrez chez votre mère, et vous masturbez devant des animations japonaises low-cost made in China. THE END.
+        </text>
+        <win>false</win>
+    </step>
+
+    <step>
+        <id>18</id>
+        <title>Les mechas c'est mon dada</title>
+        <type>multipleChoice</type>
+        <text>
+            Votre conquête du Japon se fait sans résistance, car fort de votre lecture des plaquettes documentaires fournies le six aout en mémoire d'Hiroshima par les infographistes de Topito, vous avez découvert une faille dans leur plan de défense national
+            infaillible: il n'y en a pas, et sur un malentendu ça passait. Vous relancez l'économie du pays par vos réformes odacieuses et occidentales: la suppression de la démocratie, l'utilisation du 49.3 et le banissement du hentai. Les fiers ingénieurs
+            poly-japonais, après moults sudoku et sepuku, ont mis au point une nouvelle arme à ajouter à votre collection: le mecha. À la suite de cette invention, vous prenez le monde en une heure, douze minutes et soixante sept secondes. Mais une chose vous
+            résiste encore et toujours: l'irréductible jury de Polytech. Il est temps de lancer une dernière action offensive et choisissez votre but:
+        </text>
+        <choices>
+            <choice>
+                <text>Polytech Nice-Sophia Antipolis</text>
+                <nextStep>13</nextStep>
+            </choice>
+            <choice>
+                <text>Polytech Marseille</text>
+                <nextStep>19</nextStep>
+            </choice>
+            <choice>
+                <text>Polytech Nord</text>
+                <nextStep>20</nextStep>
+            </choice>
+        </choices>
+    </step>
+
+    <step>
+        <id>20</id>
+        <title>LOL JOKE</title>
+        <type>end</type>
+        <text>
+            Il est trop tard quand vous réalisez votre méprise. Les autres écoles du réseau Polytech ne sont qu'un mur de fumée créé de toutes pièces par l'Amicale des Anciens, afin de soustraire des fonds publics non taxés. Le monde entier était au courant,
+            sauf vous. Vous vous mettez en position amicale de sécurité, à la risée du monde. Maintenant que vous réalisez que vous n'aurez jamais de diplôme, vous savez que vous n'avez plus d'avenir professionnel. Vous vous laissez donc mourir SEUL dans la même
+            position. THE END.
+        </text>
+        <win>false</win>
+    </step>
+
+    <step>
+        <id>19</id>
+        <title>Polytech Kalash</title>
+        <type>end</type>
+        <text>
+            Vous pénétrez la métropole phocéenne par l'autoroute Nord. Vous êtes vites forcés de faire demi-tour en raison des travaux qui y ont lieu, et des tireurs isolés qui font feu sur votre convoi. Vous passez donc par Aix-en-Provence et passez par la
+            Valentine. Une ambiance lourde pèse sur la ville. Les cris et les coups de feu retentissent. Vous êtes dans votre élément. Une femme s'approche, il lui manque deux bras et tous ses organes ont été volés lorsqu'elle faisait une sieste sur la plage.
+            Elle vous regarde, les yeux brillants, et vous souffle "étagère". Vous vous lancez dans une longue tirade, car vous avez compris "dans quel état j'ères?". Elle vous signifie qu'elle en a rien à foutre et reprends le décès qu'elle a entamé avant votre
+            arrivée, en finissant son petit jaune. Vous approchez du campus de Polytech Marseille. Des barbelés jonchent la pelouse jaunie par le soleil. Vous ordonnez à vos mechas et Ketanks de prendre d'assaut les bâtiments. C'est alors que des tirs de
+            roquettes fusent depuis le RU, touchant les mechas à leur unique point faible: le pilote, qui était assis sur la tête du mecha et non à l'intérieur, suite à une erreur de conception de la part des japonais, qui étaient encore en train de pleurer leur
+            hentai tentaculincestueux. Vous vous retrouvez sans défense devant les étudiants locaux, qui s'empressent de vous dérober votre pull et vos chaussures. L'un d'eux vous crache dans l'oeil. Vous trouvez ça rafraîchissant mais contractez l'hépatite du
+            SIDA et mourrez. THE END.
+        </text>
+        <win>false</win>
+    </step>
+
+</story>

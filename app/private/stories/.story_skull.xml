@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<story>
+    <name>story_skull</name>
+    <resume>Resume the story</resume>
+    <step>
+        <id>0</id>
+        <title>Tout premier chapitre</title>
+        <type>multipleChoice</type>
+        <text>Un choix multiple</text>
+        <choices>
+            <choice>
+                <text>choice 1</text>
+                <nextStep>1</nextStep>
+            </choice>
+        </choices>
+    </step>
+    <step>
+        <id>1</id>
+        <title>Second step</title>
+        <type>riddle</type>
+        <text>Une enigme</text>
+        <answers>
+            <answer>
+                <value>reponse</value>
+                <nextStep>2</nextStep>
+            </answer>
+        </answers>
+    </step>
+    <step>
+        <id>2</id>
+        <title>Third step: Puzzle</title>
+        <type>puzzle</type>
+        <text>Resoudre le puzzle</text>
+        <nextStep>3</nextStep>
+    </step>
+    <step>
+        <id>3</id>
+        <title>The End</title>
+        <text>You won</text>
+        <type>end</type>
+        <win>true</win>
+    </step>
+</story>

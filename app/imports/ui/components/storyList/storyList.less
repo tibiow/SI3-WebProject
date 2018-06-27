@@ -1,0 +1,32 @@
+story-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .storyListHeader {
+        display: flex;
+        justify-content: center;
+    }
+    .storyListFilter {
+        display: flex;
+        justify-content: center;
+        md-input-container {
+            width: 50%;
+        }
+    }
+    .storiesContainer {
+        vertical-align: middle;
+        margin: auto;
+        width: 80%;
+        height: 50vh;
+        overflow-y: scroll;
+        md-card {
+            // .storyIcon {
+            //     height: 35px;
+            //     width: 35px;
+            // }
+        }
+    }
+    md-button {
+        width: 75px;
+    }
+}

@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<story>
+    <name>story_miel</name>
+    <resume>This story is honey</resume>
+
+    <step>
+        <id>0</id>
+        <title>Tout premier chapitre</title>
+        <type>multipleChoice</type>
+        <text> Vous avez été mandaté par un riche marchant pour transporter un pot de miel à sa pauvre mère grand. Que voulez vous faire ?</text>
+        <choices>
+            <choice>
+                <text>boire un coup !</text>
+                <nextStep>1</nextStep>
+            </choice>
+            <choice>
+                <text>partir de la taverne</text>
+                <nextStep>2</nextStep>
+            </choice>
+        </choices>
+    </step>
+
+    <step>
+        <id>1</id>
+        <title>Aaaaaah! ça requinque !</title>
+        <type>multipleChoice</type>
+        <text>ça fait du bien une petite binouze ... On fait quoi maintenant ?</text>
+        <choices>
+            <choice>
+                <text>partir à l'aventure</text>
+                <nextStep>2</nextStep>
+            </choice>
+            <choice>
+                <text>allez une petite dernière pour la route (reboire)</text>
+                <nextStep>1</nextStep>
+            </choice>
+        </choices>
+    </step>
+
+    <step>
+        <id>2</id>
+        <title>l'aventure commence</title>
+        <type>multipleChoice</type>
+        <text>Vous faites face à la forêt maléfique. Bon nombre d'aventurier sont morts sur cette terre maudite. Quel chemin souhaitez vous emprunter?</text>
+        <choices>
+            <choice>
+                <text>contourner la forêt</text>
+                <nextStep>3</nextStep>
+            </choice>
+            <choice>
+                <text>rentrer dans la forêt</text>
+                <nextStep>7</nextStep>
+            </choice>
+        </choices>
+    </step>
+
+    <step>
+        <id>3</id>
+        <title>un vieux monsieur barbue</title>
+        <type>riddle</type>
+        <text>Après quelques minutes passées à parcourir ce chemin, vous retrouvez face à un druide vous demandant de répondre à sa question pour pouvoir passer. Qu'est ce qui est petit et marron?</text>
+        <answers>
+            <answer>
+                <value>marron</value>
+                <nextStep>4</nextStep>
+            </answer>
+        </answers>
+    </step>
+
+    <step>
+        <id>4</id>
+        <title>Good answer</title>
+        <type>multipleChoice</type>
+        <text>Le druide blasé s'écria: "Putain il est fort ce con!" et s'en alla en courant en vous donnant une potion. Après quelques kilomètres vous rencontrez un ours bloquant le passage. Que faites-vous? 
+        </text>
+        <choices>
+            <choice>
+                <text>BASTON</text>
+                <nextStep>5</nextStep>
+            </choice>
+            <choice>
+                <text>lui jeter la potion</text>
+                <nextStep>6</nextStep>
+            </choice>
+        </choices>
+    </step>
+
+    <step>
+        <id>5</id>
+        <title>YOU DIED</title>
+        <text>... faut pas être malin pour attaquer un ours. Il t'éclate d'un coup de patte et mange le miel que tu devais livrer. GAME OVER</text>
+        <type>end</type>
+        <win>false</win>
+    </step>
+
+    <step>
+        <id>6</id>
+        <title>un gentil nounours</title>
+        <type>multipleChoice</type>
+        <text>Suite à ce jet de potion, l'ours semble très attiré par vous et ne vous veut que du bien. Félicitation vous avez maintenant un ours domestique</text>
+        <choices>
+            <choice>
+                <text>avancer sur le chemin</text>
+                <nextStep>14</nextStep>
+            </choice>
+        </choices>
+    </step>
+
+    <step>
+        <id>7</id>
+        <title>glauque cette forêt</title>
+        <type>multipleChoice</type>
+        <text>Après quelques minutes à vadrouiller dans la forêt, vous discernez parmis les feuilles l'ombre d'un animal. Connaissant la réputation de cette forêt que décidez vous de faire?</text>
+        <choices>
+            <choice>
+                <text>s'approcher de la bête</text>
+                <nextStep>8</nextStep>
+            </choice>
+            <choice>
+                <text>contourner la bête</text>
+                <nextStep>9</nextStep>
+            </choice>
+        </choices>
+    </step>
+
+    <step>
+        <id>8</id>
+        <title>UNE LICORNE</title>
+        <type>multipleChoice</type>
+        <text>En vous avançant vous faites face à une terrible créature. UNE LICORNE! face à ce redoutable ennemi quel va être votre réaction? </text>
+        <choices>
+            <choice>
+                <text>l'attaquer</text>
+                <nextStep>10</nextStep>
+            </choice>
+            <choice>
+                <text>essayer de la dompter</text>
+                <nextStep>11</nextStep>
+            </choice>
+            <choice>
+                <text>fuir</text>
+                <nextStep>12</nextStep>
+            </choice>
+        </choices>
+    </step>
+
+    <step>
+        <id>9</id>
+        <title>un choix judicieux</title>
+        <type>multipleChoice</type>
+        <text>T'as bien fait de te barrer parait que c'est vicieux ces sales bêtes!</text>
+        <choices>
+            <choice>
+                <text>continuer</text>
+                <nextStep>13</nextStep>
+            </choice>
+        </choices>
+    </step>
+
+    <step>
+        <id>10</id>
+        <title>YOU DIED</title>
+        <text>... faut pas être malin pour attaquer une licorne. Tout le monde sait que les licornes explosent à n'importe quel aggression. GAME OVER</text>
+        <type>end</type>
+        <win>false</win>
+    </step>
+
+    <step>
+        <id>11</id>
+        <title>gentille la licorne</title>
+        <type>multipleChoice</type>
+        <text>Bon ... ba t'as une licorne de compagnie ... Cool.</text>
+        <choices>
+            <choice>
+                <text>continuer</text>
+                <nextStep>13</nextStep>
+            </choice>
+        </choices>
+    </step>
+
+    <step>
+        <id>12</id>
+        <title>YOU DIED</title>
+        <text>fuir est judicieux ... sauf quand t'es pas foutu de courir convenablement. Tu te prend une racine et meurt. GAME OVER</text>
+        <type>end</type>
+        <win>false</win>
+    </step>
+
+    <step>
+        <id>13</id>
+        <title>les portes du villages</title>
+        <type>riddle</type>
+        <text>Tu arrives enfin aux portes du villages. les villageois te demande toutefois quel produit tu transportes</text>
+        <answers>
+            <answer>
+                <value>miel</value>
+                <nextStep>14</nextStep>
+            </answer>
+        </answers>
+    </step>
+
+    <step>
+        <id>14</id>
+        <title>YOU WIN</title>
+        <text>Tu arrives enfin sans encombre à l'intérieur du village. Mission accomplie</text>
+        <type>end</type>
+        <win>true</win>
+    </step>
+
+</story>

@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<story>
+    <name>Une fuite a travers le sytème Epsilon Solarus 6 </name>
+    <resume>Toute cette histoire ce déroule autour du capitaine Aldrian Korius, pilote au service...du plus offrant,
+    de son vaisseau l'Othéryon et de sa mission actuelle...</resume>
+    <step>
+        <id>0</id>
+        <title>Un réveil difficile</title>
+        <type>multipleChoice</type>
+        <text>"Capitaine ! Capitaine ! Veuillez vous reveiller immédiatement,
+            votre présence est fortement recommendée sur le pont", une voix robotique répète ces mots en boucle...
+        Vous ouvrez des yeux encores enbrummé, "A c'est vrai" pensez-vous "Les effets de la stase",
+        après quelques instant, vos yeux vous permettent de voir, vous êtes encore dans votre cube de stase</text>
+        <choices>
+            <choice>
+                <text>Sortir du cube</text>
+                <nextStep>1</nextStep>
+            </choice>
+        </choices>
+    </step>
+    <step>
+        <id>1</id>
+        <title>Comprendre</title>
+        <type>multipleChoice</type>
+        <text>"Ah, capitaine, ravie de vous voir enfin sortis de votre sommeil"
+        Encore cette voix robotique qui vous parle, ah c'est vrai, il s'agit Ylianna l'IA du vaisseau.
+        "Comme je vous le disez votre présence est..." Vous cessez d'ecouter,
+            car votre esprit est confus, encore un effet secondaire de la stase.
+        Que faites vous ici déjà ?
+        Une mission sans doute...Le système Epsilon Solarus ! voila cela vous reviens,
+        vous étiez dans le système Epsilon Solarus 6, vous vous êtes rendu sur la planète Organ pour récuperer
+        un cristal d'Alumentil artificiel, vous ne savez même pas de  quoi il s'agit exactement...
+        Heureusement que ça paie bien !
+        "Capitaine ! m'avez vous seulement écouté, votre présence..."</text>
+        <choices>
+            <choice>
+                <text>"Est requise sur le pont, je sais !" Aller sur le pont</text>
+                <nextStep>2</nextStep>
+            </choice>
+            <choice>
+                <text>Ignorer l'IA et faire un brin de toilette</text>
+                <nextStep>3</nextStep>
+            </choice>
+        </choices>
+    </step>
+    <step>
+        <id>3</id>
+        <title>Prise de conscience</title>
+        <type>multipleChoice</type>
+        <text>Après quelques minute, un énorme bruit retentis ! Une explosion ! Vous n'avez pas payé pour ça !</text>
+        <choices>
+            <choice>
+                <text>Aller sur le pont</text>
+                <nextStep>2</nextStep>
+            </choice>
+            <choice>
+                <text>L'ignorer</text>
+                <nextStep>4</nextStep>
+            </choice>
+        </choices>
+    </step>
+    <step>
+        <id>4</id>
+        <title>The End</title>
+        <text>Votre vaisseau explose après quelques minutes supplementaire, vous êtes mort et re-mort</text>
+        <type>end</type>
+        <win>true</win>
+    </step>
+    <step>
+        <id>1</id>
+        <title>Second step</title>
+        <type>riddle</type>
+        <text>Une enigme</text>
+        <answers>
+            <answer>
+                <text>reponse</text>
+                <nextStep>2</nextStep>
+            </answer>
+        </answers>
+    </step>
+    <step>
+        <id>2</id>
+        <title>The End</title>
+        <text>You won</text>
+        <type>end</type>
+        <win>true</win>
+    </step>
+</story>

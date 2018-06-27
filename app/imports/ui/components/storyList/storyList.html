@@ -1,0 +1,33 @@
+<div class="storyListHeader">
+    <h2>Choose your story and hop in!</h2>
+</div>
+<div class="storyListFilter">
+    <md-input-container class="md-block">
+        <label>Search</label>
+        <input ng-model="storyList.search">
+    </md-input-container>
+</div>
+<div class="storiesContainer" layout="row" layout-wrap>
+    <md-card flex-gt-sm="40" flex="90" ng-repeat="stry in storyList.stories | filter:storyList.search">
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline">{{stry.story.name}}</span>
+                <span class="md-subhead">{{stry.story.resume}}</span>
+            </md-card-title-text>
+            <md-card-title-media>
+                <div class="md-media-sm card-media">
+                    <img src="http://o.aolcdn.com/hss/storage/midas/7a01f058ad8e17dadec8b4fd778b0ef3/200101609/adventure-time-nameless.jpg" alt="" />
+                </div>
+            </md-card-title-media>
+        </md-card-title>
+        <md-card-actions layout="row" layout-align="end center">
+            <md-button href="/show/{{stry._id}}">
+                <md-icon class="storyIcon" md-svg-icon="maps:ic_map_24px" aria-label="show"></md-icon>
+            </md-button>
+            <md-button href="/play/{{stry._id}}/0">
+                <md-icon class="storyIcon" md-svg-icon="av:ic_play_arrow_24px" aria-label="play"></md-icon>
+            </md-button>
+        </md-card-actions>
+    </md-card>
+    <!-- </div> -->
+</div>

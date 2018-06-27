@@ -1,0 +1,67 @@
+<div class="storyView" column>
+    <!-- <div class="storyTitle"> -->
+    <h1>{{storyView.story.name}}</h1>
+    <!-- </div> -->
+    <div class="chapterId">
+        <span>{{storyView.chapter.title}}</span>
+    </div>
+
+    <div class="chapterText" flex-gt-sm="50" flex="100">
+        {{storyView.chapter.text}}
+    </div>
+
+    <div class="interactBlock">
+
+        <!-- Shown if the chapter contains choices -->
+        <div class="chapterChoices" ng-show="storyView.isMultichoices">
+          <p class="chooseWay" ng-hide="storyView.oneChoice">Choose your way!</p>
+            <div ng-repeat="choice in storyView.choices" ng-hide="storyView.oneChoice">
+                <div class="radio">
+                    <label>
+                        <input checked type="radio" ng-value="{{choice.nextStep}}" name="boolean" ng-model="storyView.selectedChapter" /> {{choice.text}}
+                    </label>
+                </div>
+            </div>
+            <div class="nextBtn">
+                <md-button class="md-raised" ng-click="storyView.unlockNode()" href="/play/{{storyView.storyId}}/{{storyView.selectedChapter}}">NEXT</md-button>
+            </div>
+
+        </div>
+
+        <!-- Shown if the chapter contains riddles -->
+        <div class="chapterRiddle" ng-show="storyView.isRiddle">
+            Answer the riddle or you shall not pass!
+            <br>
+            <form class="form-inline">
+                <div class="form-group">
+                    <label for="riddleAnswer">Your answer : </label>
+                    <input type="text" class="form-control" placeholder="blablabla" ng-model="storyView.riddleAnswer">
+                </div>
+                <a href="/play/{{storyView.storyId}}/{{storyView.selectedChapter}}" ng-click="storyView.unlockNode()" class="btn btn-default">Go!</a>
+            </form>
+            <div class="" ng-show="storyView.riddleFailure">
+                <p class="bg-warning">Sorry, but {{storyView.riddleAnswer}} is not a correct answer!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Shown if the chapter contains a puzzle -->
+    <div class="chapterPuzzle" ng-show="storyView.isPuzzle">
+        Here is a puzzle for ya!
+        <puzzle-view></puzzle-view>
+    </div>
+
+    <div class="challengeSuccessBlock" ng-show="storyView.challengeSuccess">
+        <p>
+            You passed the challenge, congrats!
+        </p>
+        <md-button class="md-raised" ng-click="storyView.unlockNode()" href="/play/{{storyView.storyId}}/{{storyView.selectedChapter}}">NEXT</md-button>
+    </div>
+
+    <div class="winBlock" ng-show="storyView.isEnd">
+        <p ng-class="endColor">
+            This is the end, and you {{storyView.endingStatus}}!<br>
+            It took you {{storyView.totalSteps}} steps to get to this end. 
+        </p>
+    </div>
+</div>
